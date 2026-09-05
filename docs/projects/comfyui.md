@@ -1,0 +1,86 @@
+---
+title: ComfyUI
+category: projects
+date: 2026-09-03
+tags: [comfy-cloud-pricing, comfyui, comfyui-development, comfyui_core_updates, comfyui_desktop, ecosystem_grants, product_updates, project]
+aliases: ["Comfy Cloud", "ComfyUI"]
+---
+
+# ComfyUI
+
+**Development line:** `project:comfyui` · thread `comfyui-development`  
+**Last event:** 2026-09-03 · 21 dated since 2023-11-24 · **Researched:** 2026-09-05 · confidence: medium
+
+## What it is
+
+ComfyUI-H3VAE_TRT is a third-party ComfyUI extension by lihaoyun6. It compiles MiniMax-H3 VAE ONNX models into TensorRT engines and loads them as a VAE. This is a custom-node integration, not a release of the MiniMax-H3 model or a core ComfyUI update.
+
+## Development line
+
+- **2023-11-24 — ComfyUI Publishes Stable Video Diffusion Workflows.** On 2023-11-24, ComfyUI published first-party Stable Video Diffusion example workflows for image-to-video generation. The examples documented model placement and controls for frame count, motion, frame rate, and classifier-free guidance.
+- **2024-06-12 — ComfyUI Core Adds SD3 Support.** On 2024-06-12, ComfyUI added SD3 support to its core engine in commit 8c4a9be. The change established native engine support for building SD3 workflows.
+- **2024-09-16 — ComfyUI Adds SD3 and Flux Inpainting ControlNet Support.** On 2024-09-16, ComfyUI added support for AliMama ControlNet models for SD3 and Flux inpainting in commit f48e390. The change expanded structurally conditioned inpainting workflows for those model families.
+- **2024-10-21 — ComfyUI V1 Introduces a New Interface and Desktop Beta.** On 2024-10-21, ComfyUI introduced its V1 interface and opened closed-beta Desktop packaging. The release added a bundled Manager, tabs, settings, model and workflow browsers, and model-download assistance. The original interface moved to a maintenance path.
+- **2024-12-06 — ComfyUI Responds to the Ultralytics Package Compromise.** On 2024-12-06, ComfyUI documented its response to malicious Ultralytics 8.3.41 and 8.3.42 packages encountered through some custom-node dependency chains. The project distinguished the compromised dependency from ComfyUI core and added Manager warnings and version pinning.
+- **2025-07-28 — ComfyUI Adds Day-Zero Wan 2.2 Support.** On 2025-07-28, ComfyUI added native day-zero support for Wan 2.2. The release provided official mixture-of-experts text-to-video and image-to-video workflows and packaged model files.
+- **2025-08-13 — ComfyUI Expands Wan 2.2 Fun InP and Control Workflows.** On 2025-08-13, ComfyUI added Wan 2.2 Fun InP, Control, and LightX2V support. The workflows enabled first-and-last-frame generation, structural controls, and faster four-step generation with LoRA acceleration.
+- **2025-08-26 — ComfyUI Adds Native Qwen-Image DiffSynth ControlNet Support.** On 2025-08-26, ComfyUI added native Qwen-Image DiffSynth ControlNet support. The update expanded controllable image generation and documented optional cache-based workflow acceleration.
+- **2025-08-27 — ComfyUI Adds Hosted Gemini and Local Qwen-Image Control Paths.** On 2025-08-27, ComfyUI added two distinct execution paths: Google Gemini 2.5 Flash Image through credit-billed Partner Nodes and local InstantX Qwen-Image Unified ControlNet workflows. The local workflows supported canny, depth, pose, and soft-edge controls.
+- **2025-08-28 — Second Comfy Challenge Expands the Community Workflow Program.** On 2025-08-28, ComfyUI expanded its community showcase and workflow-learning program through the second Comfy Challenge. This was an ecosystem and education milestone rather than a core runtime release.
+- **2025-09-24 — ComfyUI Adds Wan 2.2 Animate and Qwen Image Editing Workflows.** On 2025-09-24, ComfyUI added native workflows for Wan 2.2 Animate and Qwen-Image-Edit-2509. They supported performer-driven character animation and replacement as well as multi-image editing.
+- **2025-10-07 — ComfyUI 0.3.63 Makes Subgraphs Publishable.** On 2025-10-07, ComfyUI 0.3.63 made subgraphs publishable as reusable blueprint nodes. The release also redesigned selection tooling for graph editing.
+- **2025-10-09 — ComfyUI Adds Sora 2 Partner Nodes.** On 2025-10-09, ComfyUI made Sora 2 and Sora 2 Pro available through paid Partner Nodes. The integration supported text-to-video and image-to-video generation with sound.
+- **2025-10-22 — ComfyUI 0.3.66 Improves Subgraph and Template Tooling.** On 2025-10-22, ComfyUI 0.3.66 added a parameter panel for subgraphs. The release also redesigned workflow-template discovery and filtering.
+- **2025-11-26 — Comfy Cloud Expands Infrastructure and Feature Allowances.** On 2025-11-26, Comfy Cloud announced a move to RTX 6000 Pro infrastructure and support for using personal LoRAs. It also described longer Pro runs and unified credits across Cloud GPU execution and Partner Nodes.
+- **2025-12-30 — ComfyUI Begins Moving Its Canonical Repository to Comfy-Org.** On 2025-12-30, ComfyUI began moving its canonical GitHub repository from comfyanonymous/ComfyUI to Comfy-Org/ComfyUI. GitHub redirects were retained, and users were advised to update their Git remotes.
+- **2026-01-27 — ComfyUI Adds Day-Zero Z-Image Support.** On 2026-01-27, ComfyUI added day-zero support for the non-distilled Z-Image model. The release included an official workflow and model-specific sampling guidance.
+- **2026-02-05 — ComfyUI Ecosystem Announces an Open-Model Grant Initiative.** On 2026-02-05, the ComfyUI ecosystem announced an open-model grant initiative described as a $1 million program alongside the Anima launch. The initiative was presented as funding for open model development.
+- **2026-03-26 — ComfyUI Introduces Stable Dynamic VRAM Management.** On 2026-03-26, ComfyUI documented Dynamic VRAM as a stable mechanism for reducing memory pressure and out-of-memory failures on supported Nvidia systems. Its guidance emphasized measuring total workflow time instead of isolated iteration speed.
+- **2026-09-02 — Launch of ComfyUI H3VAE TensorRT integration.** The maintainer announced a TensorRT MiniMax-H3 VAE version for ComfyUI that can increase speed up to 1.7x.
+  - The extension provides separate Compiler and Loader nodes. The checked source revision is 1b72e7439e1fc306b9dfbfd3d485866553b5960e, committed later on September 2; the original announcement did not identify a release tag. (2026-09-02) — <https://github.com/lihaoyun6/ComfyUI-H3VAE_TRT/blob/1b72e7439e1fc306b9dfbfd3d485866553b5960e/README.md>
+- **2026-09-03 — ComfyUI update.** An independent tester reported 48.8s versus 36.6s for the same 2.0MP, six-second VAE decode on an RTX 4090 with 24GB, ComfyUI 0.34.2 and TensorRT 10.12. At 768p the result was 19.6s versus 18.0s. This is one workload-specific decode test, not an overall generation-speed claim.
+
+## What changed
+
+The maintainer reports up to 1.7x faster MiniMax-H3 VAE processing in a third-party ComfyUI integration. The claim concerns VAE encode/decode, not end-to-end video generation. The source announcement date is retained separately from the subsequent research.
+
+## How to use this
+
+1. Clone the extension into ComfyUI/custom_nodes and install its requirements using the Python environment that runs ComfyUI.
+  — <https://github.com/lihaoyun6/ComfyUI-H3VAE_TRT/blob/1b72e7439e1fc306b9dfbfd3d485866553b5960e/README.md>
+2. Download the encoder and decoder ONNX files from the maintainer's linked model repository, including accompanying .data files when supplied. Put them under ComfyUI/models/vae.
+  — <https://github.com/lihaoyun6/ComfyUI-H3VAE_TRT/blob/1b72e7439e1fc306b9dfbfd3d485866553b5960e/README.md>
+3. Build the engines with MiniMax-H3 TRT VAE Compiler, then load them with MiniMax-H3 TRT VAE Loader.
+  — <https://github.com/lihaoyun6/ComfyUI-H3VAE_TRT/blob/1b72e7439e1fc306b9dfbfd3d485866553b5960e/README.md>
+
+## Best practices
+
+- Below 12GB VRAM, the maintainer suggests the w4a16_awq decoder. Treat this as an author recommendation, not a guarantee that the complete video workflow will fit your GPU.
+  — <https://github.com/lihaoyun6/ComfyUI-H3VAE_TRT/blob/1b72e7439e1fc306b9dfbfd3d485866553b5960e/README_zh.md>
+- Compare the same latent at your target resolution and measure VAE decode separately from total generation time. The independent test found a much smaller gain at 768p than at 2.0MP.
+  — <https://note.com/seal309midorin/n/nb75b14bbab4e>
+
+## Superseded by this
+
+- Nothing marked obsolete yet.
+
+## Still unknown
+
+- The original announcement does not identify an immutable release tag or the installed version.
+- The maintainer's maximum 1.7x claim is not an independent benchmark of complete video generation.
+- A Chinese community guide was located, but its page could not be retrieved in the root verification pass. Chinese coverage here is first-party documentation; no independent Chinese benchmark is claimed.
+- No workflow was executed on our GPU for this article. Hardware measurements are attributed to their authors.
+
+## Sources
+
+| source | title | read |
+|---|---|---|
+| https://github.com/lihaoyun6/ComfyUI-H3VAE_TRT/blob/1b72e7439e1fc306b9dfbfd3d485866553b5960e/README.md | Maintainer README, English, pinned source revision | 2026-09-05 |
+| https://github.com/lihaoyun6/ComfyUI-H3VAE_TRT/blob/1b72e7439e1fc306b9dfbfd3d485866553b5960e/README_zh.md | Maintainer README, Simplified Chinese, translated into English synthesis | 2026-09-05 |
+| https://note.com/seal309midorin/n/nb75b14bbab4e | Independent Japanese RTX 4090 VAE decode test, public excerpt | 2026-09-05 |
+
+## Agent brief {#agent-brief}
+
+- **Subject:** `project:comfyui`, thread `comfyui-development`, 21 dated events 2023-11-24 → 2026-09-03.
+- **Practical note:** See the sourced usage and practice sections above, including their limits.
+- **Confidence:** medium. Dated supersedes above are the authority for what is obsolete.
