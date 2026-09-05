@@ -107,7 +107,7 @@ MiniMax H3 Semantic Bridge is a ComfyUI conditioning adapter for the standard Mi
 ### Limits and open questions
 
 - No independent reproduction, standardized human-preference benchmark, or separate third-party performance validation was found for this exact adapter as of 2026-09-05.
-- The 5-6M parameter count, representation metrics, training split, and compatibility claims are author-published release claims, not independently audited.
+- The 5-6M parameter count, representation metrics, training split, and compatibility claims are author-published release claims, not independently audited here.
 - Chinese queries found no exact zh-CN announcement, tutorial, or independent reproduction for MiniMax H3 Semantic Bridge. The examined MiniMaxH3 CondBridge Qwen3.5-4B result is a different project and must not be merged into this event.
 - We did not download or run the package. Runtime compatibility, artifact integrity beyond the named revision, license interpretation, and practical video gains remain unverified.
 
