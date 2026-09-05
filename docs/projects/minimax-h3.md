@@ -86,3 +86,29 @@ From 2026-07-31, start with the official MiniMax H3 page to evaluate the project
 - **Subject:** `project:minimax-h3`, thread `minimax-h3`, 1 dated events 2026-07-31 → 2026-07-31.
 - **Practical note:** From 2026-07-31, start with the official MiniMax H3 page to evaluate the project. Do not infer features or deployment readiness from early materials alone.
 - **Confidence:** high. Dated supersedes above are the authority for what is obsolete.
+
+<!-- live-update:d336eed43fa2789e79635be365c8a2a0bb09b0d8651d55809dfa1659a5457423 -->
+## 2026-09-05 — MiniMax H3 Semantic Bridge adds an adapter for H3's FL2VA text path
+
+MiniMax H3 Semantic Bridge is a ComfyUI conditioning adapter for the standard MiniMax H3 FL2VA text-conditioned workflow. It is a community project, not an official MiniMax or SenseNova release. Ref2VA support was not released because author tests degraded singing and lip-sync.
+
+### Usage and practices
+
+- Install the released custom-node archive under ComfyUI/custom_nodes/. Place MiniMaxH3_SemanticBridge_v1.safetensors under ComfyUI/models/semantic_bridge/, restart ComfyUI, and start from the supplied workflow reference. [Source](https://huggingface.co/speach1sdef178/MiniMax-H3-Semantic-Bridge/blob/8c2d9b0edb844d6002864a9addd61458dbe81c22/README.md)
+- Use v1 only with the standard MiniMax H3 FL2VA/text-conditioned route. Do not put it into Ref2VA or another reference-conditioned workflow. [Source](https://huggingface.co/speach1sdef178/MiniMax-H3-Semantic-Bridge/blob/8c2d9b0edb844d6002864a9addd61458dbe81c22/README.md)
+- Begin at alpha 0.10 with per-token magnitude matching. Compare native H3 and bridge-enabled output using the same prompt, seed, and generation settings. Treat the published alpha 0.15 comparisons as examples rather than a universal preset. [Source](https://huggingface.co/speach1sdef178/MiniMax-H3-Semantic-Bridge/blob/8c2d9b0edb844d6002864a9addd61458dbe81c22/README.md)
+- Keep the author's representation-space cosine measurements separate from video-quality claims. The release says they measure agreement with a teacher-derived representation, not perceptual quality or universal prompt-adherence improvement. [Source](https://huggingface.co/speach1sdef178/MiniMax-H3-Semantic-Bridge/blob/8c2d9b0edb844d6002864a9addd61458dbe81c22/README.md)
+
+### Additional evidence
+
+- 2026-09-05: The public repository is speach1sdef178/MiniMax-H3-Semantic-Bridge at revision 8c2d9b0edb844d6002864a9addd61458dbe81c22. Public files include the v1 adapter, custom-node archive, workflow examples, checksums, README, research material, NOTICE, and licenses. This is a community project, not an official MiniMax or SenseNova release. [Source](https://huggingface.co/speach1sdef178/MiniMax-H3-Semantic-Bridge/tree/8c2d9b0edb844d6002864a9addd61458dbe81c22)
+- 2026-09-05: The author reports that v1 belongs only on the standard MiniMax H3 FL2VA/text-conditioned route. Ref2VA/reference-audio experiments degraded singing and lip-sync, so no Ref2VA node was released. Alpha 0.10 is the author's starting point. The alpha 0.15 A/B examples are qualitative illustrations, not proof of general gains. [Source](https://www.reddit.com/r/StableDiffusion/comments/1w7wtco/i_tried_transferring_semantic_representations/)
+
+### Limits and open questions
+
+- No independent reproduction, standardized human-preference benchmark, or separate third-party performance validation was found for this exact adapter as of 2026-09-05.
+- The 5-6M parameter count, representation metrics, training split, and compatibility claims are author-published release claims, not independently audited.
+- Chinese queries found no exact zh-CN announcement, tutorial, or independent reproduction for MiniMax H3 Semantic Bridge. The examined MiniMaxH3 CondBridge Qwen3.5-4B result is a different project and must not be merged into this event.
+- We did not download or run the package. Runtime compatibility, artifact integrity beyond the named revision, license interpretation, and practical video gains remain unverified.
+
+<!-- Retained base: 10a35259638c923851e915e3b979bbd355ddaf2b; article blob: 3d4f380ad8d34d47f874ef8a5bfdcd7a04126e47 -->
