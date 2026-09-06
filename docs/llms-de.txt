@@ -1,6 +1,6 @@
 # Umfassende technische Wissensbasis - Happyin Knowledge Space
 
-> A comprehensive technical knowledge base with 1257+ curated articles across 28 domains. Covers software engineering, data science, DevOps, security, and more. Designed for software engineers and LLM agents seeking reliable, structured technical reference material. All articles are in English.
+> A comprehensive technical knowledge base with 1258+ curated articles across 28 domains. Covers software engineering, data science, DevOps, security, and more. Designed for software engineers and LLM agents seeking reliable, structured technical reference material. All articles are in English.
 
 This knowledge base contains deep technical articles organized by domain. Each article follows a consistent structure: definition, key concepts, code examples, gotchas, and related links.
 
@@ -998,6 +998,7 @@ This knowledge base contains deep technical articles organized by domain. Each a
 - [Stable Audio](https://happyin.space/projects/stable-audio/): **Development line:** `project:stable-audio` · thread `stable-audio-releases`
 - [Stable Diffusion 3](https://happyin.space/projects/stable-diffusion-3/): **Development line:** `project:stable-diffusion-3` · thread `stable-diffusion-3`
 - [Stable Diffusion](https://happyin.space/projects/stable-diffusion/): **Development line:** `project:stable-diffusion` · thread `stable-diffusion-development`
+- [Starchild-1](https://happyin.space/projects/starchild-1/): **Development line:** `project:starchild-1` · thread `starchild-1-development`
 - [Stream.FM](https://happyin.space/projects/stream-fm/): **Development line:** `project:stream-fm` · thread `stream-fm-development`
 - [StreamingT2V](https://happyin.space/projects/streamingt2v/): **Development line:** `project:streamingt2v` · thread `streamingt2v`
 - [StudioRecon](https://happyin.space/projects/studiorecon/): **Development line:** `project:studiorecon` · thread `studiorecon`
