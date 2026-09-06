@@ -1,6 +1,6 @@
 # 종합 기술 지식 베이스 - Happyin Knowledge Space
 
-> A comprehensive technical knowledge base with 1258+ curated articles across 28 domains. Covers software engineering, data science, DevOps, security, and more. Designed for software engineers and LLM agents seeking reliable, structured technical reference material. All articles are in English.
+> A comprehensive technical knowledge base with 1259+ curated articles across 28 domains. Covers software engineering, data science, DevOps, security, and more. Designed for software engineers and LLM agents seeking reliable, structured technical reference material. All articles are in English.
 
 This knowledge base contains deep technical articles organized by domain. Each article follows a consistent structure: definition, key concepts, code examples, gotchas, and related links.
 
@@ -905,6 +905,7 @@ This knowledge base contains deep technical articles organized by domain. Each a
 - [Nanbeige4.2-3B](https://happyin.space/projects/nanbeige-4-2-3b/): **Development line:** `project:nanbeige-4-2-3b` · thread `nanbeige4-2-3b`
 - [Nano Banana Pro](https://happyin.space/projects/nano-banana-pro/): **Development line:** `project:nano-banana-pro` · thread `nano-banana-pro`
 - [NanoVDR](https://happyin.space/projects/nanovdr/): **Development line:** `project:nanovdr` · thread `nanovdr-public-release`
+- [NAVA](https://happyin.space/projects/nava/): **Development line:** `project:nava` · thread `nava-development`
 - [Nemotron 3 Super](https://happyin.space/projects/nemotron-3-super/): **Development line:** `project:nemotron-3-super` · thread `nemotron-3-super`
 - [NeumaTex](https://happyin.space/projects/neumatex/): **Development line:** `project:neumatex` · thread `neumatex-development`
 - [neural.love](https://happyin.space/projects/neural-love/): **Development line:** `project:neural-love` · thread `neural-love-image-tools`
