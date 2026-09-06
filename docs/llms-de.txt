@@ -1,6 +1,6 @@
 # Umfassende technische Wissensbasis - Happyin Knowledge Space
 
-> A comprehensive technical knowledge base with 1243+ curated articles across 28 domains. Covers software engineering, data science, DevOps, security, and more. Designed for software engineers and LLM agents seeking reliable, structured technical reference material. All articles are in English.
+> A comprehensive technical knowledge base with 1244+ curated articles across 28 domains. Covers software engineering, data science, DevOps, security, and more. Designed for software engineers and LLM agents seeking reliable, structured technical reference material. All articles are in English.
 
 This knowledge base contains deep technical articles organized by domain. Each article follows a consistent structure: definition, key concepts, code examples, gotchas, and related links.
 
@@ -1023,6 +1023,7 @@ This knowledge base contains deep technical articles organized by domain. Each a
 - [WAN 2.2 — WAN](https://happyin.space/projects/wan-2-2/): **Development line:** `project:wan-2-2` · thread `wan`
 - [Wan Video](https://happyin.space/projects/wan-video/): **Development line:** `project:wan-video` · thread `wan-video-development`
 - [WAN](https://happyin.space/projects/wan/): **Development line:** `project:wan` · thread `wan-video-generation`
+- [Wan2.2-NVFP4-Sparse](https://happyin.space/projects/wan2-2-nvfp4-sparse/): **Development line:** `project:wan2-2-nvfp4-sparse` · thread `wan2-2-nvfp4-sparse-development`
 - [WavTTS](https://happyin.space/projects/wavtts/): **Development line:** `project:wavtts` · thread `wavtts-development`
 - [What to Edit Next — Public site reference](https://happyin.space/projects/what-to-edit-next/): **Development line:** `project:what-to-edit-next` · thread `public-site-reference`
 - [WhatModels — Public website](https://happyin.space/projects/whatmodels/): **Development line:** `project:whatmodels` · thread `public-website`
