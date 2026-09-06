@@ -1,6 +1,6 @@
 # Base de connaissances techniques complète - Happyin Knowledge Space
 
-> A comprehensive technical knowledge base with 1246+ curated articles across 28 domains. Covers software engineering, data science, DevOps, security, and more. Designed for software engineers and LLM agents seeking reliable, structured technical reference material. All articles are in English.
+> A comprehensive technical knowledge base with 1247+ curated articles across 28 domains. Covers software engineering, data science, DevOps, security, and more. Designed for software engineers and LLM agents seeking reliable, structured technical reference material. All articles are in English.
 
 This knowledge base contains deep technical articles organized by domain. Each article follows a consistent structure: definition, key concepts, code examples, gotchas, and related links.
 
@@ -745,6 +745,7 @@ This knowledge base contains deep technical articles organized by domain. Each a
 - [ComfyUI Setup Manager](https://happyin.space/projects/comfyui-setup-manager/): **Development line:** `project:comfyui-setup-manager` · thread `comfyui-setup-manager-development`
 - [ComfyUI Skill Public — Public repository](https://happyin.space/projects/comfyui-skill-public/): **Development line:** `project:comfyui-skill-public` · thread `public-repository`
 - [ComfyUI Sol-Attn — Blackwell and Triton implementations](https://happyin.space/projects/comfyui-sol-attn/): **Development line:** `project:comfyui-sol-attn` · thread `blackwell-and-triton-implementations`
+- [ComfyUI_StarNodes](https://happyin.space/projects/comfyui-starnodes/): **Development line:** `project:comfyui-starnodes` · thread `comfyui-starnodes`
 - [heydoughogan ComfyUI VFX Workflow — ComfyUI VFX passes](https://happyin.space/projects/comfyui-vfx-workflow/): **Development line:** `project:comfyui-vfx-workflow` · thread `comfyui-vfx-passes`
 - [ComfyUI](https://happyin.space/projects/comfyui/): **Development line:** `project:comfyui` · thread `comfyui-development`
 - [ControlNet for SDXL — SDXL ControlNet model releases](https://happyin.space/projects/controlnet-sdxl/): **Development line:** `project:controlnet-sdxl` · thread `sdxl-controlnet-model-releases`
