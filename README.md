@@ -4,7 +4,7 @@ A curated technical reference across 28 domains — Kafka, Python, SQL, ML, secu
 
 We built it because agents kept confidently hallucinating API flags, version-specific behavior, and config options. Point your Claude, Cursor, or any RAG pipeline at this repo and it gets a reliable source to check against.
 
-**1266+ articles | 28 domains | 3134+ cross-references**
+**1268+ articles | 28 domains | 3146+ cross-references**
 
 [![Live site](https://img.shields.io/badge/Live_site-happyin.space-FFD740?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PGNpcmNsZSBjeD0iMjgiIGN5PSIyMiIgcj0iOSIgZmlsbD0iI2JiODZmYyIvPjxjaXJjbGUgY3g9IjQyIiBjeT0iMzAiIHI9IjciIGZpbGw9IiMwM2RhYzYiLz48Y2lyY2xlIGN4PSIxOCIgY3k9IjQwIiByPSI2IiBmaWxsPSIjZmY3NTk3Ii8+PC9zdmc+)](https://happyin.space/)
 
@@ -20,14 +20,14 @@ We built it because agents kept confidently hallucinating API flags, version-spe
 | `devops/` | 47 | Docker, Kubernetes, Terraform, CI/CD, monitoring, SRE, observability |
 | `organizations/` | 45 | One page per company or lab: leadership and structure changes, product lines, what each change made obsolete |
 | `kafka/` | 43 | Broker internals, consumers, producers, Streams, KSQL, Connect, replication |
-| `architecture/` | 37 | Microservices, DDD, system design, API patterns, CQRS |
+| `architecture/` | 38 | Microservices, DDD, system design, API patterns, CQRS |
 | `web-frontend/` | 36 | React, TypeScript, CSS, Figma, bundlers, accessibility, JS async |
 | `data-engineering/` | 34 | ETL/ELT, Spark, Airflow, data warehouses, streaming, CDC, vector search |
 | `algorithms/` | 33 | Sorting, graphs, DP, data structures, complexity analysis |
 | `python/` | 33 | Core language, FastAPI, Django, async, testing, stdlib, web scraping |
 | `sql-databases/` | 33 | PostgreSQL, MySQL, query optimization, migrations, indexing, advanced |
 | `ios-mobile/` | 31 | SwiftUI, Swift, Android/Kotlin fundamentals, mobile ML |
-| `cpp/` | 29 | Modern C++, memory, templates, concurrency, cross-platform ML |
+| `cpp/` | 30 | Modern C++, memory, templates, concurrency, cross-platform ML |
 | `linux-cli/` | 29 | Shell scripting, filesystem, systemd, permissions, networking |
 | `java-spring/` | 25 | Spring Boot, JPA, microservices, Kotlin, Android |
 | `seo-marketing/` | 25 | Technical SEO, keyword research, link building, AI-driven SEO |
