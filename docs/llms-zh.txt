@@ -1,6 +1,6 @@
 # 综合技术知识库 - Happyin Knowledge Space
 
-> A comprehensive technical knowledge base with 1264+ curated articles across 28 domains. Covers software engineering, data science, DevOps, security, and more. Designed for software engineers and LLM agents seeking reliable, structured technical reference material. All articles are in English.
+> A comprehensive technical knowledge base with 1265+ curated articles across 28 domains. Covers software engineering, data science, DevOps, security, and more. Designed for software engineers and LLM agents seeking reliable, structured technical reference material. All articles are in English.
 
 This knowledge base contains deep technical articles organized by domain. Each article follows a consistent structure: definition, key concepts, code examples, gotchas, and related links.
 
@@ -865,6 +865,7 @@ This knowledge base contains deep technical articles organized by domain. Each a
 - [LMarena Video Arena — Video Arena](https://happyin.space/projects/lmarena/): **Development line:** `project:lmarena` · thread `video-arena`
 - [LMX-Omni-52B-Halo](https://happyin.space/projects/lmx-omni-52b-halo/): **Development line:** `project:lmx-omni-52b-halo` · thread `lmx-omni-52b-halo`
 - [LocateAnything — Model release](https://happyin.space/projects/locateanything/): **Development line:** `project:locateanything` · thread `model-release`
+- [LongE2V](https://happyin.space/projects/longe2v/): **Development line:** `project:longe2v` · thread `longe2v-development`
 - [Lovart](https://happyin.space/projects/lovart/): **Development line:** `project:lovart` · thread `lovart-development`
 - [LTX-2.3 IC-LoRA Ingredients — LTX-2.3](https://happyin.space/projects/ltx-2-3-ic-lora-ingredients/): **Development line:** `project:ltx-2-3-ic-lora-ingredients` · thread `ltx-2-3`
 - [LTX-2.3 inpaint LoRA](https://happyin.space/projects/ltx-2-3-inpaint-lora/): **Development line:** `project:ltx-2-3-inpaint-lora` · thread `ltx-2-3-inpaint-lora`
