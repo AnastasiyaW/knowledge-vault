@@ -1,6 +1,6 @@
 # Base de conocimientos técnicos integral - Happyin Knowledge Space
 
-> A comprehensive technical knowledge base with 1281+ curated articles across 28 domains. Covers software engineering, data science, DevOps, security, and more. Designed for software engineers and LLM agents seeking reliable, structured technical reference material. All articles are in English.
+> A comprehensive technical knowledge base with 1282+ curated articles across 28 domains. Covers software engineering, data science, DevOps, security, and more. Designed for software engineers and LLM agents seeking reliable, structured technical reference material. All articles are in English.
 
 This knowledge base contains deep technical articles organized by domain. Each article follows a consistent structure: definition, key concepts, code examples, gotchas, and related links.
 
@@ -694,6 +694,7 @@ This knowledge base contains deep technical articles organized by domain. Each a
 
 ## Projects
 - [3DGS-PLY-3DTiles-Converter](https://happyin.space/projects/3dgs-ply-3dtiles-converter/): **Development line:** `project:3dgs-ply-3dtiles-converter` · thread `3dgs-ply-3dtiles-converter`
+- [3DreamBooth](https://happyin.space/projects/3dreambooth/): **Development line:** `project:3dreambooth` · thread `3dreambooth-development`
 - [ACE Studio Video Composer — ACE Studio development](https://happyin.space/projects/ace-studio/): **Development line:** `project:ace-studio` · thread `ace-studio-development`
 - [ACTI](https://happyin.space/projects/acti/): **Development line:** `project:acti` · thread `acti-development`
 - [Firefly Graph](https://happyin.space/projects/adobe-firefly-graph/): **Development line:** `project:adobe-firefly-graph` · thread `firefly-graph`
